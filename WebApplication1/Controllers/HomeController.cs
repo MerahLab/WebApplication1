@@ -21,6 +21,7 @@ namespace WebApplication1.Controllers
         public IActionResult Privacy()
         {
             return View();
+            // second modif vbg
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
